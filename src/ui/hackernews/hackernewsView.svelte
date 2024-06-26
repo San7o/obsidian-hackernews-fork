@@ -13,7 +13,6 @@
     dataHN = await manager.requestTopHN();
   }
 
-  // TODO
   export async function saveHNItem(itemHN: HNItem) {
     console.log(`saving story ${itemHN.title}`);
     await manager.saveHNItem(itemHN);
